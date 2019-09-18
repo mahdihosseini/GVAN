@@ -1,17 +1,17 @@
 # GVAN
-Package Library for Inverse Vandermonde Calculation
+## Package Library for Inverse Vandermonde Calculation
 
 This package contains the code used to create the analysis and figures from:  
 
-Mahdi S. Hosseini, Alfred Chen and Konstantinos N. Plataniotis "On the Closed Form Expression Of Elementary Symmetric Polynomials and the Inverse of Vandermonde Matrix," submitted to SIAM Journal On Scientific Computing, 2019.
+** Mahdi S. Hosseini, Alfred Chen and Konstantinos N. Plataniotis "On the Closed Form Expression Of Elementary Symmetric Polynomials and the Inverse of Vandermonde Matrix," submitted to SIAM Journal On Scientific Computing, 2019.
 
-Folders:  
+### Folders:  
 Utilities - the main source codes as well as some programs to help readability of the demos.  
 Third party codes - the Matlab implemented codes for other inverse or ESP solutions  
 Demo examples - the demo codes to create the figures seen in the paper  
 Data - saved Fekete node calculations to reduce calculation time  
 
-Acronyms in file names:  
+### Acronyms in file names:  
 ESP - Elementary Symmetric Polynomial  
 INV - Inverse  
 UC - Unit Circle  
@@ -20,7 +20,7 @@ Acc - Accuracy
 Polyfit - Polynomial Fitting  
 NMSE - Normalized Mean Squared Error  
 
-Demo:  
+### Demo:  
 The changeable parameters are located at the top of every demo file. Each program is standalone and can be individually ran to output results specifically related to the figure in its name. Demos starting with “UC” are relating to the unit circle analysis done on the ESP solutions. Demos starting with “Interp” are the interpolation analysis relating to the inverse methods.  
 
 Interp_2D_Plots_Fig5 - Creates the 2D plots for Figure 5  
@@ -32,7 +32,7 @@ UC_Noise_Analysis_Fig3 - calculates the NMSE of a vandermonde inverse method qua
 UC_Speed_Fig2b - Calculates and plots the computation speed of the proposed ESP solution over the UC samples. The plot corresponds to figure 2b.  
 UC_Visual_Fig1 - Calculates and visualizes the results from various ESP solutions  
 
-Utilities:  
+### Utilities:  
 analytical_function - produces the three true functions,f, used for experimental analysis  
 big_S - Used to incorporate various ESP solutions to solve the proposed Vandermonde inverse.  
 ESP_Closed - Closed Form, proposed ESP solution. Listed as Theorem 2.1 in the paper.  
