@@ -3,7 +3,7 @@
 
 This package contains the code used to create the analysis and figures from:  
 
-*Mahdi S. Hosseini, Alfred Chen and Konstantinos N. Plataniotis "On the Closed Form Expression Of Elementary Symmetric Polynomials and the Inverse of Vandermonde Matrix," submitted to SIAM Journal On Scientific Computing, 2019.*
+*Mahdi S. Hosseini, Alfred Chen and Konstantinos N. Plataniotis "[On the Closed Form Expression Of Elementary Symmetric Polynomials and the Inverse of Vandermonde Matrix](https://arxiv.org/abs/1909.08155)," submitted to SIAM Journal On Scientific Computing, 2019.*
 
 ### Folders:  
 **Utilities** - the main source codes as well as some programs to help readability of the demos.  
